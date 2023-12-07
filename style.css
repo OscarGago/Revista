@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Oswald:wght@200;300;500;700&display=swap');
+
+body {
+    font-family: 'Electrolize', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgb(100, 0, 0),
+        rgb(177, 98, 2));
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50%;
+    margin-top: 2%;
+    
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 700;
+}
+
+.menu .navbar ul li a:hover {
+    color: #ffa303;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-top: 200px;
+}
+
+.header-content p {
+    font-size: 30px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.video {
+    display: flex;
+    width: 600px;
+    margin-right: 200px;
+    margin-top: 325px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 15px 15px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-left: 37%;
+    margin-top: 10%;
+}
+
+.btn-1:hover {
+    background-color: black;
+}
+.btn-2 {
+    display: inline-block;
+    padding: 15px 15px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.btn-2:hover {
+    background-color: black;
+}
+
+.btn-3 {
+    display: inline-block;
+    padding: 15px 15px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+
+.btn-3:hover {
+    background-color: black;
+}
+
+.coffee {
+    padding: 100px 0;
+    background-image: linear-gradient(
+    rgb(177, 98, 2),
+    rgb(9, 217, 200));
+    position: relative;
+}
+
+.coffee-content {
+    text-align: center;
+}
+
+.coffee-content h2 {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 55px;
+    line-height: 70px;
+    color: #c5c5c5;
+    text-transform: uppercase;
+    padding: 0 205px;
+    margin-bottom: 15px;
+}
+
+.coffee-content p {
+    font-size: 16px;
+    color: #f9fafc;
+}
+
+.coffee-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.coffee-1 {
+    padding: 25px 25px;
+}
+
+.coffee-1 img {
+    width: 275px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    margin-bottom: 15px
+}
+
+.coffee-1 h3 {
+    color: #c5c5c5;
+    font-size: 40px;
+}
+
+.coffee-1 h3:hover {
+    color: blueviolet;
+}
+
+.coffee-1 p {
+    color: #f9fafc;
+    font-size: 18px;
+}
+
+.coffee-2 {
+    padding: 25px 25px;
+}
+
+.coffee-2 img {
+    width: 500px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    margin-bottom: 15px
+}
+
+.coffee-2 h3 {
+    color: #c5c5c5;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 90px;
+}
+
+.coffee-2 h3:hover {
+    color: blueviolet;
+}
+
+.coffee-2 p {
+    color: #f9fafc;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.coffee-3 {
+    padding: 25px 25px;
+}
+
+.coffee-3 img {
+    width: 250px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    margin-bottom: 15px
+}
+
+.coffee-3 h3 {
+    color: #c5c5c5;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+
+.coffee-3 h3:hover {
+    color:blueviolet;
+}
+
+
+.coffee-3 p {
+    color: #f9fafc;
+    font-size: 18px;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-image: linear-gradient(
+        rgb(9, 217, 200),
+        rgb(133, 10, 248));
+}
+
+.general-2 {
+    background-image: url();
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    background-image: linear-gradient(
+        rgb(9, 217, 200),
+        rgb(133, 10, 248));
+}
+
+.imagen {
+    width: 500px;
+    border-radius: 15px;
+    margin-bottom: 70px;
+    margin-top: 90px;
+}
+
+.imagen-2 {
+    width: 400px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #c5c5c5;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #fffdfc;
+    margin: 75px 0 45px 0 ;
+    text-align: center;
+}
+
+.blog-container {
+    padding: 100px 0;
+    text-align: center;
+    background-image: linear-gradient(
+        rgb(133, 10, 248),
+        rgb(0, 0, 0));
+    
+}
+
+.blog h2 {
+    font-family: 'Electrolize', sans-serif;
+   
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.blog-1 {
+    padding:  55px 55px;
+}
+
+.blog-2 {
+    padding:  55px 55px;
+}
+
+.blog-3 {
+    padding: 35px 55px;
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-2 img {
+    margin-top: 5px;
+    width: 500px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-3 img {
+    width: 260px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.blog-2 h3{
+    margin-top: 145px;
+    font-size: 25px;
+    color: #f9fafc;
+}
+
+.blog-3 h3{
+    margin-top: 70px;
+    font-size: 25px;
+    color: #f9fafc;
+}
+
+.blog-1 h3{
+    margin-top: 74px;
+    font-size: 25px;
+    color: #f9fafc;
+}
+
+.blog-1 h3:hover {
+    color: aqua;
+}
+.blog-2 h3:hover {
+    color: aqua;
+}
+.blog-3 h3:hover {
+    color: aqua;
+}
+
+.blog-1 h2 {
+    font-size: 25px;
+    color: #c5c5c5;
+}
+
+.footer {
+    padding: 25px 0;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.footer-content {
+    font-family: 'Electrolize', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 550px;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 25px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+    
+}
+
+@media(max-width:900px) {
+
+    .menu{
+        padding: 30px;
+    }
+
+    .logo {
+        width: 75%;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        width: auto;
+        min-height: 0vh;
+    }
+
+    .header-content {
+        width: auto;
+        padding: 100px 30px;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .coffee {
+        width: auto;
+        padding: 30px;
+    }
+
+    .coffee-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .coffee-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .coffee-img {
+        display: none;
+    }
+
+    .coffee-2 img {
+        width: auto;
+    }
+
+
+    .general {
+        flex-direction: column;
+    }
+
+    .general-1 {
+        width: 80%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general-2 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .imagen {
+        width: 200px;
+       margin-left: 20px;
+        margin-bottom: 100px;
+        
+    }
+
+    .imagen-2 {
+        width: 200px;
+        padding-right: 200px;
+        margin-bottom: 100px;
+        
+    }
+   
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+    }
+
+    .blog-2 img{
+        width: 100%;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn-3 {
+        margin-right: 55px;
+    }
+
+    .btn-2 {
+        margin-right: 55px;
+        
+    }
+
+    .btn-1 {
+        margin-right: 65px;
+    }
+
+}
